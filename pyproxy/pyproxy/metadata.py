@@ -447,7 +447,7 @@ class Files(object):
         return path
 
     @staticmethod
-    def parse_metablock(record):
+    def parse_metablock(record: dict) -> MetaBlock:
         """
         Parses a metablock from an object
         Args:
